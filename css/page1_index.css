@@ -1,0 +1,47 @@
+.image-wrapper {
+    max-width: 300px;
+    max-height: 500px;
+}
+
+#iconCart {
+    font-size: 40px;
+    /* border: 1px solid black; */
+    margin-top: 30%;
+}
+
+.circle
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    right: 2%;
+    bottom: 5%;
+    position: fixed;
+    background-color: #599ee2;
+}
+#order {
+    /* float: right; */
+    width: 28%;
+    height:500px;
+    border: 2px solid black;
+    /* display: flex; */
+    overflow: hidden;
+    /* display: block; */
+    position: fixed;
+    right: 0;
+    top: 5%;
+    visibility: hidden;
+    z-index: 1;
+}
+
+
+.border {
+    /* padding: 10px; */
+    border-bottom: 2px solid black;
+}
+
+.circle:hover {
+    background-color: aqua;
+}

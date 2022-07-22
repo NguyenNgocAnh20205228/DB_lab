@@ -1,0 +1,124 @@
+html {
+    margin: auto;
+    font-family: Segoe UI;
+    background: #f8f6f2;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+    text-align: justify;
+}
+
+s {
+    color: #9f9f9f;
+}
+
+.logo {
+    width: 530px;
+    height: 120px;
+//background: #1a444b;
+    background-image: url("https://i.imgur.com/N0S9HLi.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.header {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: #ffc907;
+    color: #322737;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    top: 120px;
+    margin: 40px auto;
+//background: #ffffff;
+}
+
+.bookContainer {
+    vertical-align: top;
+    display: inline-block;
+    background: #ffffff;
+    width: 220px;
+    border-radius: 10px;
+//border: 1px solid #333333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bookContainer:hover {
+    background: #ffc907;
+    color: #515151;
+}
+
+.bookContainer a {
+//position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 60px;
+    height: 30px;
+    color: #2980b9;
+}
+
+.bookImage {
+    width: 113px;
+    height: 240px;
+//background: #1a444b;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 20px auto 15px;
+}
+
+#img01 {
+    background-image: url("https://i.imgur.com/gsiuIZY.png");
+}
+
+#img02 {
+    background-image: url("https://i.imgur.com/WxD78Mf.png");
+}
+
+#img03 {
+    background-image: url("https://i.imgur.com/W2Wix2z.png");
+}
+
+#img04 {
+    background-image: url("https://i.imgur.com/ySbZBvL.png");
+}
+
+#img05 {
+    background-image: url("https://i.imgur.com/uF8jWAa.png");
+}
+
+#img06 {
+    background-image: url("https://i.imgur.com/lW0Bgah.png");
+}
+
+
+.bookPrice {
+    background: #f8f6f2;
+    color: #27ae60;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.bookTitle {
+    margin: 0;
+}
+
+.bookEdition {
+    color: #9f9f9f;
+    margin: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
